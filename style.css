@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: url('bg.jpg');
+    /* background-color: rgb(28, 55, 138); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 700px;
+    min-height: 550px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(136, 132, 132);
+}
+
+header{
+    padding: 25px 0 40px 0;
+}
+
+header h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 10px 0;
+    color: rgb(182, 143, 84);
+}
+
+header p{
+    text-align: center;
+    font-weight: 500;
+}
+
+main{
+     margin-bottom: 30px;
+}
+
+.flex-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.signup{
+    display: flex;
+    width: 50%;
+    padding: 0 25px;
+    flex-direction: column;
+
+}
+
+.signup button{
+    display: flex;
+    align-items: center;
+    background: transparent;
+    padding: 12px;
+    border: 1px solid #dee0e1;
+    border-radius: 4px;
+    margin: 5px 0;
+    text-align: left;
+    font-size: 14px;
+}
+
+.signup button:hover{
+    background-color:whitesmoke;
+    cursor: pointer;
+}
+
+.signup #signup{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 5px;
+    padding: 7px;
+    border-radius: 15px;
+}
+
+.signup #signup:hover{
+    background: whitesmoke;
+}
+
+.signup p{
+    border-top: 1.5px solid #dee0e1;
+    padding-top: 10px;
+    font-size: 13px;
+    color: rgb(136, 132, 132);
+}
+
+.signup p a:hover{
+    text-decoration: underline;
+}
+
+.login{
+    padding: 0 25px;
+    width: 50%;
+    border-left: 1px solid #dee0e1;
+}
+
+.login h4{
+    color:black;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1.5px solid #dee0e1;
+}
+
+.form-item{
+  position: relative;
+  margin: 25px 0;
+  height: 40px;
+  width: 100%;
+}
+
+.form-item input{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 15px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.103);
+}
+
+.form-item label{
+    position: absolute;
+    bottom: 10px;
+    font-size: small;
+    padding-bottom: 5px;
+}
+
+.form-item input:focus{
+  outline: none;
+  border-bottom: 2px solid rgb(182, 143, 84);
+  transform-origin: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.form-item input:focus ~ label,
+.form-item input:valid ~ label{
+    transform: translateY(-20px);
+    font-weight: bolder;
+    color: rgb(182, 143, 84);
+    font-size: 13px;
+    transition: all 0.25s ease;
+}
+
+.form-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-line a{
+    font-size: 14px;
+}
+
+.form-line a:hover{
+    text-decoration: underline;
+}
+
+.form-line button{
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px 23px;
+    background: rgb(13, 34, 61);
+    border:none;
+    border-radius: 20px;
+}
+
+.form-line button:hover{
+    cursor: pointer;
+    opacity: 0.92;
+}
+
+section{
+    border-top: 1px solid #dee0e1;
+    border-bottom: 1px solid #dee0e1;
+    text-align: center;
+    font-size: 12px;
+    padding: 20px;
+}
+
+section a{
+    color: rgba(0, 0, 255, 0.836);
+}
+
+section a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+    font-size: 13px;
+    padding: 24px;
+    background: whitesmoke;
+    border-bottom-right-radius:5px;
+    border-bottom-left-radius:5px;
+}
+
+footer a{
+    color: initial;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
