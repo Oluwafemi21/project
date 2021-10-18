@@ -353,14 +353,15 @@ td input[type="checkbox"]{
 } 
 
 .profile-detail .bi-x:hover{
-    background-color: rgba(128, 128, 128, 0.8);
+    background-color: rgba(128, 128, 128, 0.5);
     border-radius: 50%;
 }
 
-
 .profile-name{
     font-weight: 600;
+    font-size: 12px;
 }
+
 .date{
     color: rgba(128, 128, 128, 0.8);
 }
@@ -369,21 +370,7 @@ td input[type="checkbox"]{
     text-decoration: underline;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.bio{
+    margin-top: 6px;
+    font-size: 12px;
+}
